@@ -1,0 +1,7 @@
+Name:Roll:Semester:M1:M2:M3
+Ashok:1:5:78:65:89
+Vinod:2:5:58:80:93
+Vijay:3:5:34:35:78
+Neraj:4:5:46:58:89
+kumar:78:4:89:45:78
+sam:19:4:56:78:98
