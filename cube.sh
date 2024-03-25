@@ -1,7 +1,7 @@
 #! /bin/bash
-read -p "Enter number : " n
-for((a=1;a<=n;a++))
+read -p "enter a number " n
+for((i=1;i<=n;i++))
 do
-cube=$((a*a*a ))
-echo "Cube of the number $a is $cube"
+echo " cube of  $i is" $((i*i*i))
 done
+

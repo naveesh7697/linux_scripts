@@ -1,13 +1,13 @@
 #! /bin/bash
-read -p "Enter number : " n
-sum=0
-i=1
-echo -n "Odd numbers are : "
-for((a=1;a<=n;a++))
+read -p "to find sum of n odd numbers , please enter n" n
+for((i=1;i<=n;i++))
 do
- echo -n "$i," 
- sum=$((sum+i))
- i=$((i+2))
+if((i%2!=0))
+then
+echo -n "$i, "
+sum=$((sum+i))
+fi
+
 done
 echo ""
-echo "Sum = $sum"
+echo "required sum is " $sum
